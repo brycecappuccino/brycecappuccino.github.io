@@ -1,0 +1,50 @@
+/* https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42 */
+
+body {background-color: #EDDEA4;}
+
+header { 
+
+  margin-top: 30px;
+  text-align:center;
+  font-size: 30px;
+  font-family: "Courier New", "Lucida Console", monospace;
+
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 2px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+.navigation {
+    margin-top: 20px;
+    text-align:center;
+}
+
+.roundB {
+    background-color: #0FA3B1;
+    border-radius: 8px;
+    border: none;
+    color: #ecf3ea;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+  .roundB:hover {
+    background-color: #0b7e89;
+  }
+
+  .roundB:active {
+    background-color: #0b7e89;
+    box-shadow: 0 5px #a8a8a8;
+    transform: translateY(4px);
+  }
